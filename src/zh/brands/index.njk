@@ -1,0 +1,31 @@
+---
+layout: layouts/base.njk
+lang: zh
+pageTitle: "台球杆品牌大全 - CuePedia"
+pageDescription: "全球主流台球杆品牌列表，涵盖 Predator、Mezz、McDermott 等品牌的详细介绍与产品线。"
+---
+
+<section class="py-12">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h1 class="section-title">台球杆品牌</h1>
+    <p class="section-subtitle">全球主流品牌一览</p>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+      {% for brand in [brands.predator, brands.mezz, brands.mcdermott] %}
+      <a href="/zh/brands/{{ brand.id }}/" class="brand-card group">
+        <div class="h-44 bg-gradient-to-br from-gray-800 to-gray-600 flex items-center justify-center">
+          <p class="text-white font-bold text-xl">{{ brand.name.en }}</p>
+        </div>
+        <div class="p-5">
+          <div class="flex items-center gap-2 mb-2">
+            <h2 class="font-bold text-gray-800">{{ brand.name.zh }}</h2>
+            <span class="tag">{{ brand.country }}</span>
+          </div>
+          <p class="text-sm text-gray-500 mb-2">{{ brand.tagline.zh | truncate(40) }}</p>
+          <p class="text-xs text-gray-400">${{ brand.price_range.min }} - ${{ brand.price_range.max }} · {{ brand.founded }}</p>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>

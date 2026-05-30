@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="{{ lang | default('zh') }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ pageTitle | default(site.title[lang] | default(site.title.zh)) }}</title>
+  <meta name="description" content="{{ pageDescription | default(site.description[lang] | default(site.description.zh)) }}">
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+  {% if lang == 'zh' %}
+  <link rel="alternate" hreflang="en" href="{{ site.url }}{{ page.url | replace('/zh/', '/en/') }}">
+  <link rel="alternate" hreflang="zh" href="{{ site.url }}{{ page.url }}">
+  {% elif lang == 'en' %}
+  <link rel="alternate" hreflang="zh" href="{{ site.url }}{{ page.url | replace('/en/', '/zh/') }}">
+  <link rel="alternate" hreflang="en" href="{{ site.url }}{{ page.url }}">
+  {% endif %}
+  <meta property="og:title" content="{{ pageTitle | default(site.title[lang]) }}">
+  <meta property="og:description" content="{{ pageDescription | default(site.description[lang]) }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body class="min-h-screen flex flex-col">
+  {% include "components/nav.njk" %}
+
+  <main class="flex-1">
+    {{ content | safe }}
+  </main>
+
+  {% include "components/footer.njk" %}
+</body>
+</html>

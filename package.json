@@ -1,0 +1,22 @@
+{
+  "name": "pool-cue-site",
+  "version": "1.0.0",
+  "description": "Billiard cue brand encyclopedia - 台球球杆品牌百科",
+  "scripts": {
+    "dev": "npx @11ty/eleventy --serve & npx @tailwindcss/cli -i src/assets/css/input.css -o _site/assets/css/style.css --watch",
+    "build:css": "npx @tailwindcss/cli -i src/assets/css/input.css -o _site/assets/css/style.css --minify",
+    "build:11ty": "npx @11ty/eleventy",
+    "build": "npm run build:css && npm run build:11ty",
+    "clean": "rm -rf _site"
+  },
+  "keywords": ["billiards", "pool cue", "台球"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.5",
+    "@11ty/eleventy-img": "^6.0.4",
+    "@tailwindcss/cli": "^4.3.0",
+    "tailwindcss": "^4.3.0"
+  }
+}

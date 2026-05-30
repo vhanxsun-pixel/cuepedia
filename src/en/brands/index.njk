@@ -1,0 +1,31 @@
+---
+layout: layouts/base.njk
+lang: en
+pageTitle: "Pool Cue Brands - CuePedia"
+pageDescription: "Complete list of pool cue brands. Detailed introductions of Predator, Mezz, McDermott and more."
+---
+
+<section class="py-12">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h1 class="section-title">Pool Cue Brands</h1>
+    <p class="section-subtitle">World's Premier Manufacturers</p>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
+      {% for brand in [brands.predator, brands.mezz, brands.mcdermott] %}
+      <a href="/en/brands/{{ brand.id }}/" class="brand-card group">
+        <div class="h-44 bg-gradient-to-br from-gray-800 to-gray-600 flex items-center justify-center">
+          <p class="text-white font-bold text-xl">{{ brand.name.en }}</p>
+        </div>
+        <div class="p-5">
+          <div class="flex items-center gap-2 mb-2">
+            <h2 class="font-bold text-gray-800">{{ brand.name.en }}</h2>
+            <span class="tag">{{ brand.country }}</span>
+          </div>
+          <p class="text-sm text-gray-500 mb-2">{{ brand.tagline.en | truncate(50) }}</p>
+          <p class="text-xs text-gray-400">${{ brand.price_range.min }} - ${{ brand.price_range.max }} · Est. {{ brand.founded }}</p>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,95 @@
+---
+layout: layouts/base.njk
+---
+
+{% set brandData = allBrands[brand] %}
+
+<article>
+  {# Hero Section #}
+  <section class="bg-gradient-to-br from-brand to-brand-light text-white py-16 lg:py-24">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col lg:flex-row items-center gap-8">
+        <div class="flex-1">
+          <div class="flex items-center gap-3 mb-4">
+            <span class="tag bg-white/20 text-white">{{ brandData.country }}</span>
+            <span class="tag bg-white/20 text-white">{{ "创立于" if lang == "zh" else "Est." }} {{ brandData.founded }}</span>
+          </div>
+          <h1 class="text-4xl lg:text-5xl font-extrabold text-white mb-4">
+            {{ brandData.name | localize(lang) }}
+          </h1>
+          <p class="text-lg text-gray-200 mb-6">{{ brandData.tagline | localize(lang) }}</p>
+          <p class="text-gray-300 leading-relaxed">{{ brandData.description | localize(lang) }}</p>
+        </div>
+        <div class="w-48 h-48 bg-white/10 rounded-2xl flex items-center justify-center backdrop-blur-sm">
+          <span class="text-5xl font-bold text-white/80">{{ brandData.name.en | first }}</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {# Signature Tech #}
+  <section class="py-12 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="section-title">{{ "核心技术" if lang == "zh" else "Core Technology" }}</h2>
+      <p class="section-subtitle">{{ "品牌独有的技术优势" if lang == "zh" else "Proprietary technology advantages" }}</p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        {% for tech in brandData.signature_tech %}
+        <div class="p-6 rounded-xl border border-gray-100 hover:border-accent/50 hover:shadow-md transition-all">
+          <div class="w-10 h-10 bg-accent/10 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-5 h-5 text-accent" fill="currentColor" viewBox="0 0 20 20">
+              <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"/>
+            </svg>
+          </div>
+          <h3 class="font-semibold text-gray-800 mb-2">{{ tech.name | localize(lang) }}</h3>
+          <p class="text-sm text-gray-500">{{ tech.desc | localize(lang) }}</p>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  {# Series List #}
+  <section class="py-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="section-title">{{ "产品系列" if lang == "zh" else "Product Series" }}</h2>
+      <p class="section-subtitle">{{ "全线产品一览" if lang == "zh" else "Complete product lineup" }}</p>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        {% for key, s in allSeries %}
+        {% if s.brand == brand %}
+        <a href="/{{ lang }}/brands/{{ brandData.id }}/{{ s.id | replace(brandData.id + '-', '') }}/" class="brand-card group">
+          <div class="h-48 bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center overflow-hidden">
+            <div class="text-center p-4">
+              <span class="text-4xl text-gray-400 group-hover:text-accent transition-colors">🎱</span>
+              <p class="mt-2 text-sm text-gray-400">{{ s.category | localize(lang) }}</p>
+            </div>
+          </div>
+          <div class="p-5">
+            <h3 class="font-semibold text-gray-800 mb-1">{{ s.name | localize(lang) }}</h3>
+            <p class="text-sm text-gray-500 mb-3">${{ s.price_range.min }} - ${{ s.price_range.max }}</p>
+            <div class="flex flex-wrap gap-1">
+              {% for shaft in s.shaft_options %}
+              <span class="text-xs bg-gray-100 text-gray-600 px-2 py-0.5 rounded">{{ shaft }}</span>
+              {% endfor %}
+            </div>
+          </div>
+        </a>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  {# Brand Info #}
+  <section class="py-12 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="section-title">{{ "品牌信息" if lang == "zh" else "Brand Info" }}</h2>
+      <table class="spec-table mt-4">
+        <tr><th>{{ "价格区间" if lang == "zh" else "Price Range" }}</th><td>${{ brandData.price_range.min }} - ${{ brandData.price_range.max }}</td></tr>
+        <tr><th>{{ "产地" if lang == "zh" else "Country" }}</th><td>{{ brandData.country }}</td></tr>
+        <tr><th>{{ "创立时间" if lang == "zh" else "Founded" }}</th><td>{{ brandData.founded }}</td></tr>
+        <tr><th>{{ "定位" if lang == "zh" else "Tier" }}</th><td>{{ brandData.tier }}</td></tr>
+        <tr><th>{{ "官网" if lang == "zh" else "Website" }}</th><td><a href="{{ brandData.website }}" target="_blank" rel="noopener" class="text-accent hover:underline">{{ brandData.website | replace("https://", "") }}</a></td></tr>
+      </table>
+    </div>
+  </section>
+</article>

@@ -1,0 +1,47 @@
+{
+  "id": "predator-sport",
+  "brand": "predator",
+  "name": {
+    "zh": "Predator Sport 系列",
+    "en": "Predator Sport Series"
+  },
+  "category": {
+    "zh": "竞技打杆（入门）",
+    "en": "Playing Cue (Entry)"
+  },
+  "price_range": { "min": 300, "max": 700, "currency": "USD" },
+  "shaft_options": ["314-3", "REVO 12.4mm (加购)"],
+  "joint": "Uni-Loc",
+  "wrap_options": ["Irish Linen", "No Wrap"],
+  "weight_range": "18-21 oz",
+  "butt_materials": ["Hard Rock Maple"],
+  "images": [
+    { "src": "/assets/images/brands/predator/sport-1.webp", "alt": "Predator Sport cue" }
+  ],
+  "highlights": {
+    "zh": [
+      "Predator 入门级竞技杆，性价比之选",
+      "同样采用 Uni-Loc 接牙系统",
+      "搭配 314-3 经典低偏转前节",
+      "设计简洁运动风，多种配色可选"
+    ],
+    "en": [
+      "Predator's entry-level competition cue, best value choice",
+      "Same Uni-Loc joint system as premium lines",
+      "Paired with classic 314-3 low-deflection shaft",
+      "Clean sporty design with multiple color options"
+    ]
+  },
+  "suitable_for": {
+    "zh": "进阶玩家的第一根品牌杆，或者预算有限但想要 Predator 品质的选手。",
+    "en": "An advancing player's first brand cue, or budget-conscious players who want Predator quality."
+  },
+  "review": {
+    "zh": "Sport 系列是进入 Predator 世界门槛最低的选择。虽然后把设计相对简单，但核心的接牙系统和前节技术与旗舰产品完全一致。对于大多数业余选手来说，Sport + 314-3 的组合已经足够应对任何场景。后续想升级，换一根 REVO 前节即可无缝衔接。",
+    "en": "The Sport series is the most accessible entry point into the Predator ecosystem. While the butt design is simpler, the core joint system and shaft technology are identical to flagship products. For most amateur players, the Sport + 314-3 combination handles any situation. When ready to upgrade, simply swap in a REVO shaft for a seamless transition."
+  },
+  "buy_links": [
+    { "platform": "PoolDawg", "url": "#" },
+    { "platform": "Amazon", "url": "#" }
+  ]
+}

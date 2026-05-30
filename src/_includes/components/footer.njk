@@ -1,0 +1,30 @@
+<footer class="bg-brand text-white mt-16">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div>
+        <h3 class="text-lg font-bold text-white mb-4">CuePedia</h3>
+        <p class="text-gray-300 text-sm leading-relaxed">
+          {{ "专业的台球球杆品牌百科，帮助你找到最适合的球杆。" if lang == "zh" else "Professional billiard cue encyclopedia to help you find the perfect cue." }}
+        </p>
+      </div>
+      <div>
+        <h4 class="font-semibold text-white mb-4">{{ "品牌" if lang == "zh" else "Brands" }}</h4>
+        <ul class="space-y-2 text-sm text-gray-300">
+          <li><a href="/{{ lang }}/brands/predator/" class="hover:text-accent transition-colors">Predator</a></li>
+          <li><a href="/{{ lang }}/brands/mezz/" class="hover:text-accent transition-colors">Mezz</a></li>
+          <li><a href="/{{ lang }}/brands/mcdermott/" class="hover:text-accent transition-colors">McDermott</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold text-white mb-4">{{ "链接" if lang == "zh" else "Links" }}</h4>
+        <ul class="space-y-2 text-sm text-gray-300">
+          <li><a href="/about/" class="hover:text-accent transition-colors">{{ "关于" if lang == "zh" else "About" }}</a></li>
+          <li><a href="/privacy/" class="hover:text-accent transition-colors">{{ "隐私政策" if lang == "zh" else "Privacy Policy" }}</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="border-t border-white/20 mt-8 pt-8 text-center text-sm text-gray-400">
+      &copy; 2026 CuePedia. All rights reserved.
+    </div>
+  </div>
+</footer>

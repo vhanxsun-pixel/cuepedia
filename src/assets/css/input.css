@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand: #1a365d;
+  --color-brand-light: #2a4a7f;
+  --color-accent: #c9a96e;
+  --color-accent-light: #e2c992;
+  --color-surface: #f8f6f3;
+  --color-surface-dark: #1a1a2e;
+}
+
+@layer base {
+  body {
+    font-family: "Inter", system-ui, -apple-system, sans-serif;
+    @apply bg-surface text-gray-800 antialiased;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-bold text-brand;
+  }
+}
+
+@layer components {
+  .brand-card {
+    @apply bg-white rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 overflow-hidden;
+  }
+
+  .brand-card:hover .brand-card-image {
+    @apply scale-105;
+  }
+
+  .brand-card-image {
+    @apply transition-transform duration-300;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center px-6 py-3 bg-brand text-white font-medium rounded-lg hover:bg-brand-light transition-colors;
+  }
+
+  .btn-accent {
+    @apply inline-flex items-center px-6 py-3 bg-accent text-white font-medium rounded-lg hover:bg-accent-light transition-colors;
+  }
+
+  .spec-table {
+    @apply w-full border-collapse;
+  }
+
+  .spec-table th {
+    @apply text-left py-3 px-4 bg-gray-100 font-medium text-gray-600 text-sm uppercase tracking-wide;
+  }
+
+  .spec-table td {
+    @apply py-3 px-4 border-b border-gray-100;
+  }
+
+  .tag {
+    @apply inline-block px-3 py-1 text-xs font-medium rounded-full bg-brand/10 text-brand;
+  }
+
+  .section-title {
+    @apply text-3xl font-bold text-brand mb-2;
+  }
+
+  .section-subtitle {
+    @apply text-gray-500 text-lg mb-8;
+  }
+}

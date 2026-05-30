@@ -1,0 +1,45 @@
+{
+  "id": "predator",
+  "name": {
+    "zh": "美洲豹 Predator",
+    "en": "Predator"
+  },
+  "country": "USA",
+  "founded": 1994,
+  "logo": "/assets/images/brands/predator/logo.webp",
+  "hero_image": "/assets/images/brands/predator/hero.webp",
+  "tagline": {
+    "zh": "低偏转技术的开创者，竞技性能之巅",
+    "en": "Pioneer of Low-Deflection Technology, The Ultimate in Performance"
+  },
+  "description": {
+    "zh": "Predator（美洲豹）创立于1994年，总部位于美国佛罗里达州。品牌以革命性的低偏转前节技术闻名于世，其 314 系列前节和后来的 REVO 碳纤维前节彻底改变了台球杆行业。Predator 是职业选手使用率最高的品牌之一，赞助了众多世界级选手。品牌定位高端竞技市场，产品线覆盖打杆、冲杆、跳杆等全品类。",
+    "en": "Founded in 1994 in Jacksonville, Florida, Predator revolutionized the billiards industry with its low-deflection shaft technology. The iconic 314 shaft series and later the REVO carbon fiber shaft set new standards for performance. Predator is one of the most used brands among professional players worldwide, sponsoring numerous world-class athletes. The brand targets the high-end competitive market with a full product range including playing cues, break cues, and jump cues."
+  },
+  "tier": "high-end",
+  "price_range": {
+    "min": 300,
+    "max": 5000,
+    "currency": "USD"
+  },
+  "signature_tech": [
+    {
+      "name": { "zh": "REVO 碳纤维前节", "en": "REVO Carbon Fiber Shaft" },
+      "desc": { "zh": "航空级碳纤维打造，超低偏转，极致稳定", "en": "Aerospace-grade carbon fiber, ultra-low deflection, maximum consistency" }
+    },
+    {
+      "name": { "zh": "Uni-Loc 快拆接牙", "en": "Uni-Loc Quick-Release Joint" },
+      "desc": { "zh": "专利快拆设计，拆装方便，连接紧密", "en": "Patented quick-release design, easy assembly with solid connection" }
+    },
+    {
+      "name": { "zh": "V-Tek 握把", "en": "V-Tek Wrap" },
+      "desc": { "zh": "高性能合成材料握把，防滑耐用", "en": "High-performance synthetic wrap, non-slip and durable" }
+    }
+  ],
+  "series": ["ikon", "throne", "blak", "sport", "roadline"],
+  "website": "https://www.predatorcues.com",
+  "socials": {
+    "instagram": "predatorcues",
+    "youtube": "PredatorGroup"
+  }
+}

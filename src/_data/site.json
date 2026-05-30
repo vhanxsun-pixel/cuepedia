@@ -1,0 +1,18 @@
+{
+  "title": {
+    "zh": "球杆百科 - 台球球杆品牌与产品指南",
+    "en": "CuePedia - Pool Cue Brand & Product Guide"
+  },
+  "description": {
+    "zh": "全面的台球球杆品牌百科，涵盖 Predator、Mezz、McDermott 等主流品牌的全系列产品介绍与选购指南。",
+    "en": "Comprehensive billiard cue encyclopedia covering all major brands including Predator, Mezz, McDermott with detailed series reviews and buying guides."
+  },
+  "url": "https://cuepedia.com",
+  "defaultLang": "zh",
+  "languages": ["zh", "en"],
+  "author": "CuePedia Team",
+  "social": {
+    "twitter": "",
+    "instagram": ""
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "id": "mcdermott",
+  "name": {
+    "zh": "麦克德莫特 McDermott",
+    "en": "McDermott"
+  },
+  "country": "USA",
+  "founded": 1975,
+  "logo": "/assets/images/brands/mcdermott/logo.webp",
+  "hero_image": "/assets/images/brands/mcdermott/hero.webp",
+  "tagline": {
+    "zh": "半世纪美国手工传统，从入门到收藏的全线覆盖",
+    "en": "Half a Century of American Craftsmanship, From Beginner to Collector"
+  },
+  "description": {
+    "zh": "McDermott 创立于1975年，总部位于美国威斯康星州。作为美国历史最悠久的球杆制造商之一，McDermott 以终身免费保修政策和覆盖全价位的产品线著称。从入门级的 Lucky 系列到收藏级的 Intimidator 系列，McDermott 满足各阶段玩家需求。其 G-Core 和 i-Pro 前节技术也广受好评。",
+    "en": "Founded in 1975 in Menomonee Falls, Wisconsin, McDermott is one of America's oldest cue manufacturers. Known for their lifetime warranty and comprehensive product range spanning all price points, from the entry-level Lucky series to the collectible Intimidator series. McDermott serves players at every level with their acclaimed G-Core and i-Pro shaft technology."
+  },
+  "tier": "mid-to-high",
+  "price_range": {
+    "min": 100,
+    "max": 8000,
+    "currency": "USD"
+  },
+  "signature_tech": [
+    {
+      "name": { "zh": "G-Core 前节", "en": "G-Core Shaft" },
+      "desc": { "zh": "碳纤维核心 + 枫木外层，结合两种材质优势", "en": "Carbon fiber core with maple exterior, combining benefits of both materials" }
+    },
+    {
+      "name": { "zh": "i-Pro 前节", "en": "i-Pro Shaft" },
+      "desc": { "zh": "多层结构低偏转设计，性价比出色", "en": "Multi-layer low deflection design with excellent value" }
+    },
+    {
+      "name": { "zh": "终身保修", "en": "Lifetime Warranty" },
+      "desc": { "zh": "业界最强的终身免费维修政策", "en": "Industry-leading lifetime free repair warranty" }
+    }
+  ],
+  "series": ["g-series", "star", "lucky", "intimidator", "cue-of-the-month"],
+  "website": "https://www.mcdermottcue.com",
+  "socials": {
+    "instagram": "mcdermottcue",
+    "youtube": "McDermottCue"
+  }
+}
