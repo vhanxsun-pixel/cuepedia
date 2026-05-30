@@ -1,0 +1,50 @@
+{
+  "id": "predator-p3",
+  "brand": "predator",
+  "name": {
+    "zh": "Predator P3 系列",
+    "en": "Predator P3 Series"
+  },
+  "category": {
+    "zh": "性能打杆",
+    "en": "Performance Playing Cue"
+  },
+  "price_range": { "min": 999, "max": 1841, "currency": "USD" },
+  "shaft_options": ["REVO 12.4mm", "REVO 12.9mm", "REVO 11.8mm"],
+  "joint": "Uni-Loc Quick Release",
+  "wrap_options": ["Leather Luxe Wrap", "Lizard Grain Leather", "No Wrap"],
+  "weight_range": "18.5-21 oz",
+  "butt_materials": ["Carbon Composite", "Fiberglass Composite"],
+  "images": [
+    { "src": "/assets/images/brands/predator/p3-1.webp", "alt": "Predator P3 Prowler full cue" },
+    { "src": "/assets/images/brands/predator/p3-detail.webp", "alt": "Predator P3 forearm detail" }
+  ],
+  "highlights": {
+    "zh": [
+      "Predator 性能线核心产品，职业选手首选",
+      "碳纤维复合材料后把，重量轻、手感稳定",
+      "标配 REVO 碳纤维前节，三种直径可选",
+      "多款配色：Black、Galaxy、Prowler、Flare Orange",
+      "4.7-5.0 星好评，14+ 条用户评价验证"
+    ],
+    "en": [
+      "Predator's core performance line, preferred by professionals",
+      "Carbon composite butt — lightweight with consistent feel",
+      "Includes REVO carbon fiber shaft with 3 diameter options",
+      "Multiple colorways: Black, Galaxy, Prowler, Flare Orange",
+      "4.7-5.0 star ratings with 14+ verified user reviews"
+    ]
+  },
+  "suitable_for": {
+    "zh": "认真对待台球的中高级玩家。P3 提供了和 Blak5 相同的 REVO 前节性能，但后把采用现代复合材料而非珍贵木材，价格更合理。适合追求纯粹性能、不在意传统木质美感的人。",
+    "en": "Serious intermediate to advanced players. P3 offers the same REVO shaft performance as Blak5, but with a modern composite butt instead of exotic woods, at a more reasonable price. Ideal for those who prioritize pure performance over traditional wood aesthetics."
+  },
+  "review": {
+    "zh": "P3 是 Predator 产品线中'性能价值比'最高的选择。后把使用碳纤维复合材料而非传统木材，这意味着：1）重量更轻更均匀；2）不受温湿度影响，稳定性极强；3）价格比 Blak 系列低 $1000-2000。搭配的 REVO 前节和 Blak5 完全一样，所以打感和性能没有任何妥协。Black 款 $999 起步（不含 wrap）是整个 Predator 产品线进入 REVO 世界最划算的方式。唯一的取舍是外观——如果你想要传统球杆的木质温润感，P3 的工业风格可能不适合你。",
+    "en": "P3 offers the best performance-to-value ratio in Predator's lineup. The carbon composite butt means: 1) lighter and more uniform weight; 2) immune to temperature/humidity, extremely stable; 3) $1,000-2,000 less than Blak series. The REVO shaft is identical to Blak5's, so there's zero compromise in hit and performance. The Black model starting at $999 (no wrap) is the most affordable way into Predator's REVO ecosystem. The only tradeoff is aesthetics — if you want traditional wood warmth, P3's industrial style may not be for you."
+  },
+  "buy_links": [
+    { "platform": "Predator Official", "url": "https://www.predatorcues.com/collections/p3-pool-cues" },
+    { "platform": "PoolDawg", "url": "#" }
+  ]
+}

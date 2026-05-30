@@ -10,13 +10,15 @@
     "en": "Mid-Range Playing Cue"
   },
   "price_range": { "min": 270, "max": 515, "currency": "USD" },
+
   "shaft_options": ["Classic Maple Shaft", "G-Core Shaft (加购)"],
   "joint": "3/8-10",
   "wrap_options": ["Irish Linen", "No Wrap"],
   "weight_range": "18-21 oz",
   "butt_materials": ["Premium Maple", "Exotic materials overlay"],
   "images": [
-    { "src": "/assets/images/brands/mcdermott/star-1.webp", "alt": "McDermott Star cue" }
+    { "src": "/assets/images/brands/mcdermott/star-1.webp", "alt": "McDermott SP3 Star cue" },
+    { "src": "/assets/images/brands/mcdermott/star-2.webp", "alt": "McDermott S85 Star cue" }
   ],
   "highlights": {
     "zh": [

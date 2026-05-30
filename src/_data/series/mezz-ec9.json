@@ -1,0 +1,50 @@
+{
+  "id": "mezz-ec9",
+  "brand": "mezz",
+  "name": {
+    "zh": "Mezz EC9 系列",
+    "en": "Mezz EC9 Series"
+  },
+  "category": {
+    "zh": "旗舰打杆",
+    "en": "Flagship Playing Cue"
+  },
+  "price_range": { "min": 800, "max": 1500, "currency": "USD" },
+  "shaft_options": ["WX-Σ (Sigma)"],
+  "joint": "United Joint",
+  "wrap_options": ["Irish Linen", "No Wrap"],
+  "weight_range": "19.0-19.5 oz (538-552g)",
+  "butt_materials": ["Ebony", "Kingwood", "Dark Natural Wood", "Purpleheart", "Rosewood", "White Ash"],
+  "images": [
+    { "src": "/assets/images/brands/mezz/ec9-1.webp", "alt": "Mezz EC9-B full cue" },
+    { "src": "/assets/images/brands/mezz/ec9-2.webp", "alt": "Mezz EC9-K full cue" }
+  ],
+  "highlights": {
+    "zh": [
+      "EC7 经典系列的全面进化版，A CLASSIC REIMAGINED",
+      "标配 WX-Σ (Sigma) 低偏转前节，12.5mm",
+      "XJ Powerplate 前节端面技术",
+      "United Joint 接牙系统，传导性极佳",
+      "8 款珍贵木材配色可选（B/K/dN/P/R/W/WKK/WdNK）"
+    ],
+    "en": [
+      "Full evolution of the classic EC7 — A CLASSIC REIMAGINED",
+      "Includes WX-Σ (Sigma) low-deflection shaft at 12.5mm",
+      "XJ Powerplate tip-end technology",
+      "United Joint system for superior energy transfer",
+      "8 exotic wood color options (B/K/dN/P/R/W/WKK/WdNK)"
+    ]
+  },
+  "suitable_for": {
+    "zh": "追求日本精工品质的中高级玩家。喜欢传统木质手感但又想要现代低偏转性能的选手。EC9 是 Mezz 品牌价值观最完整的体现。",
+    "en": "Intermediate to advanced players who value Japanese precision craftsmanship. For those who love traditional wood feel but want modern low-deflection performance. EC9 is the purest expression of Mezz's brand philosophy."
+  },
+  "review": {
+    "zh": "EC9 是 Mezz 的旗舰打杆系列，继承了经典 EC7 的设计语言并全面升级。最大亮点是标配的 WX-Σ 前节——Mezz 自研的低偏转木质前节技术，在保持木头手感的同时大幅降低偏转值。与 Predator REVO 这类碳纤维前节不同，WX-Σ 保留了传统木杆的触球反馈，适合不喜欢碳纤维'硬'感的选手。United Joint 接牙的传导性也是业界顶级。后把的珍贵木材镶嵌工艺体现了日本制造的精细——白色点缀、双缝银环、几何对称图案，每一处细节都经过精心设计。",
+    "en": "EC9 is Mezz's flagship playing cue line, inheriting the classic EC7 design language with comprehensive upgrades. The standout feature is the included WX-Σ shaft — Mezz's proprietary low-deflection wood shaft technology that dramatically reduces deflection while maintaining traditional wood feel. Unlike carbon fiber shafts like Predator's REVO, the WX-Σ preserves traditional ball-striking feedback, suited for players who dislike carbon's 'hard' sensation. The United Joint's energy transfer is also industry-leading. The exotic wood inlay craftsmanship reflects Japanese precision — white accents, double-stitched silver rings, geometrically symmetric patterns, every detail meticulously designed."
+  },
+  "buy_links": [
+    { "platform": "Mezz Official", "url": "https://mezzcue.com/en/products_pool/cues/playcue/ec" },
+    { "platform": "PoolDawg", "url": "#" }
+  ]
+}

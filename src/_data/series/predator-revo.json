@@ -9,9 +9,9 @@
     "zh": "前节/配件",
     "en": "Shaft / Accessory"
   },
-  "price_range": { "min": 500, "max": 900, "currency": "USD" },
-  "shaft_options": ["REVO 12.4mm", "REVO 12.9mm"],
-  "joint": "多种接牙可选 (Uni-Loc, 3/8-10, 5/16-18 等)",
+  "price_range": { "min": 549, "max": 579, "currency": "USD" },
+  "shaft_options": ["REVO 11.8mm", "REVO 12.4mm", "REVO 12.9mm", "REVO BK-R (Break)"],
+  "joint": "Uni-Loc QR / Radial / 5/16x18 / 5/16x14 / 3/8x10",
   "wrap_options": [],
   "weight_range": "3.5-4.0 oz (前节单独)",
   "butt_materials": ["碳纤维复合材料"],
@@ -24,14 +24,14 @@
       "100% 碳纤维制造，彻底消除湿度/温度影响",
       "业界最低偏转值",
       "无需打磨维护，几乎不变形",
-      "12.4mm 和 12.9mm 两种直径可选",
+      "11.8 / 12.4 / 12.9mm 三种直径可选",
       "适配多种接牙规格，可搭配其他品牌后把"
     ],
     "en": [
       "100% carbon fiber construction eliminates humidity/temperature effects",
       "Industry-leading lowest deflection values",
       "Virtually maintenance-free, no warping",
-      "Available in 12.4mm and 12.9mm tip diameters",
+      "Available in 11.8mm, 12.4mm, and 12.9mm tip diameters",
       "Multiple joint options for compatibility with other brand butts"
     ]
   },
@@ -44,7 +44,7 @@
     "en": "REVO is Predator's flagship technology product and the most recognized carbon fiber shaft on the market. Its greatest advantage over wood shafts is consistency — unaffected by environmental changes, requiring minimal maintenance, with deflection values remaining stable. The 12.4mm suits players needing precise english, while the 12.9mm offers a larger sweet spot. The only debate is feel: some traditional wood cue enthusiasts find the carbon feedback 'hard', but this is purely personal preference."
   },
   "buy_links": [
-    { "platform": "PoolDawg", "url": "#" },
-    { "platform": "Amazon", "url": "#" }
+    { "platform": "Predator Official", "url": "https://www.predatorcues.com/collections/revo-carbon-fiber-pool-cue-shafts" },
+    { "platform": "PoolDawg", "url": "#" }
   ]
 }

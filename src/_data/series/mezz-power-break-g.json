@@ -1,0 +1,49 @@
+{
+  "id": "mezz-power-break-g",
+  "brand": "mezz",
+  "name": {
+    "zh": "Mezz Power Break G",
+    "en": "Mezz Power Break G"
+  },
+  "category": {
+    "zh": "冲球杆",
+    "en": "Break Cue"
+  },
+  "price_range": { "min": 700, "max": 900, "currency": "USD" },
+  "shaft_options": ["Ignite G (Carbon Fiber)"],
+  "joint": "United Joint",
+  "wrap_options": ["Sport Grip", "No Wrap"],
+  "weight_range": "19.0-19.5 oz (538-552g)",
+  "butt_materials": ["Tapered Composite"],
+  "images": [
+    { "src": "/assets/images/brands/mezz/pb-1.webp", "alt": "Mezz Power Break G cue" }
+  ],
+  "highlights": {
+    "zh": [
+      "Ignite G 碳纤维冲球前节，13.0mm 直径",
+      "IGG Powerplate 端面技术，最大化能量传递",
+      "复合材料锥形后把，专为冲球力学优化",
+      "Sonic 皮头，硬度适合冲球",
+      "两款配色：金/绿 (PBGG-H) 和白 (PBGW-H)"
+    ],
+    "en": [
+      "Ignite G carbon fiber break shaft at 13.0mm diameter",
+      "IGG Powerplate tip-end for maximum energy transfer",
+      "Tapered composite butt optimized for break mechanics",
+      "Sonic tip hardness tuned for breaking",
+      "Two colorways: Gold/Green (PBGG-H) and White (PBGW-H)"
+    ]
+  },
+  "suitable_for": {
+    "zh": "需要专业冲球杆的中高级玩家。如果你已经有一根好的打杆（EC9/ACE），再配一根 Power Break G 是完美搭配。",
+    "en": "Intermediate to advanced players needing a dedicated break cue. If you already have a solid playing cue (EC9/ACE), the Power Break G is the perfect complement."
+  },
+  "review": {
+    "zh": "Power Break G 是 Mezz 冲球杆的最新旗舰。Ignite G 碳纤维前节专为冲球设计——13mm 的粗直径提供更大的接触面积和容错空间，硬度也比打杆前节高很多，能把更多能量传递给母球。后把使用了重新设计的锥形复合材料，重心分布针对冲球动作做了优化。实际使用中，Power Break G 的冲球效果非常炸裂，球散得又开又均匀。价格不便宜（$700-900），但如果你经常打比赛，一根好的冲球杆对开球质量的提升是立竿见影的。",
+    "en": "Power Break G is Mezz's latest flagship break cue. The Ignite G carbon fiber shaft is designed specifically for breaking — the 13mm diameter provides greater contact area and forgiveness, with much higher stiffness than playing shafts to transfer maximum energy to the cue ball. The redesigned tapered composite butt has its center of gravity optimized for break stroke mechanics. In practice, the Power Break G produces explosive breaks with excellent ball spread. It's not cheap ($700-900), but for regular competitors, a quality break cue delivers immediate improvement in break quality."
+  },
+  "buy_links": [
+    { "platform": "Mezz Official", "url": "https://mezzcue.com/en/products_pool/cues/breakcue/powerbreak_g" },
+    { "platform": "PoolDawg", "url": "#" }
+  ]
+}

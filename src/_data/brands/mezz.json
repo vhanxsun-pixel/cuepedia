@@ -13,8 +13,8 @@
     "en": "Japanese Precision Craftsmanship, The Pursuit of Perfect Feel"
   },
   "description": {
-    "zh": "Mezz 创立于1998年，总部位于日本大阪。品牌秉承日式精工理念，以精密加工和极致手感著称。Mezz 的 WX700 和 Ignite 前节代表了木质前节的最高水平，而 EC7 系列更是其标志性产品线。Mezz 在亚洲市场特别是日本、台湾地区拥有极高知名度，是许多亚洲职业选手的首选品牌。",
-    "en": "Founded in 1998 in Osaka, Japan, Mezz embodies Japanese precision craftsmanship with an unwavering commitment to feel and quality. The WX700 and Ignite shafts represent the pinnacle of wood shaft technology, while the EC7 series stands as their iconic product line. Mezz enjoys exceptional popularity in Asian markets, particularly Japan and Taiwan, and is the preferred choice of many Asian professional players."
+    "zh": "Mezz 创立于1998年，总部位于日本大阪。品牌秉承日式精工理念，以精密加工和极致手感著称。Mezz 的 WX-Σ 和 Ignite 前节代表了前节技术的最高水平，而 EC9 系列更是其标志性产品线。Mezz 在亚洲市场特别是日本、台湾地区拥有极高知名度，是许多亚洲职业选手的首选品牌。",
+    "en": "Founded in 1998 in Osaka, Japan, Mezz embodies Japanese precision craftsmanship with an unwavering commitment to feel and quality. The WX-Σ and Ignite shafts represent the pinnacle of shaft technology, while the EC9 series stands as their iconic product line. Mezz enjoys exceptional popularity in Asian markets, particularly Japan and Taiwan, and is the preferred choice of many Asian professional players."
   },
   "tier": "high-end",
   "price_range": {
@@ -24,8 +24,8 @@
   },
   "signature_tech": [
     {
-      "name": { "zh": "WX700 前节", "en": "WX700 Shaft" },
-      "desc": { "zh": "10片拼接枫木，极低偏转与纯正手感完美平衡", "en": "10-piece spliced maple, perfect balance of low deflection and pure feel" }
+      "name": { "zh": "WX-Σ 前节", "en": "WX-Σ (Sigma) Shaft" },
+      "desc": { "zh": "Mezz 最新一代低偏转木质前节，极致手感", "en": "Mezz's latest-generation low-deflection wood shaft with ultimate feel" }
     },
     {
       "name": { "zh": "Wavy Joint 波浪接牙", "en": "Wavy Joint" },
@@ -36,8 +36,8 @@
       "desc": { "zh": "Mezz 旗下碳纤维技术，保留木质手感", "en": "Mezz carbon fiber technology with preserved wood-like feel" }
     }
   ],
-  "series": ["ec7", "power-break", "axi", "cr7"],
-  "website": "https://www.mezzpool.com",
+  "series": ["ec9", "ace", "power-break-g", "cp-26"],
+  "website": "https://mezzcue.com",
   "socials": {
     "instagram": "mezzcues",
     "youtube": ""

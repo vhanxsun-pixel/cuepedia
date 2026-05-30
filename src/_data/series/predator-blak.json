@@ -1,0 +1,50 @@
+{
+  "id": "predator-blak",
+  "brand": "predator",
+  "name": {
+    "zh": "Predator Blak5 系列",
+    "en": "Predator Blak5 Series"
+  },
+  "category": {
+    "zh": "旗舰打杆",
+    "en": "Flagship Playing Cue"
+  },
+  "price_range": { "min": 2809, "max": 3513, "currency": "USD" },
+  "shaft_options": ["REVO 12.4mm", "REVO 12.9mm", "REVO 11.8mm"],
+  "joint": "Uni-Loc Quick Release",
+  "wrap_options": ["Leather Luxe Wrap", "No Wrap"],
+  "weight_range": "18.5-21 oz",
+  "butt_materials": ["Ebony", "Cocobolo", "Birdseye Maple", "Gaboon Ebony"],
+  "images": [
+    { "src": "/assets/images/brands/predator/blak5-1.webp", "alt": "Predator Blak5 full cue" },
+    { "src": "/assets/images/brands/predator/blak5-detail.webp", "alt": "Predator Blak5 forearm detail" }
+  ],
+  "highlights": {
+    "zh": [
+      "Predator 最高端产品线，顶级珍贵木材镶嵌",
+      "标配 REVO 碳纤维前节（三种直径可选）",
+      "Uni-Loc 快拆接牙系统，更换前节仅需 1 秒",
+      "5 款设计可选，每款都是收藏级工艺品",
+      "售价 $2,800-$3,500，面向顶级玩家和收藏家"
+    ],
+    "en": [
+      "Predator's highest-end product line with premium exotic wood inlays",
+      "Includes REVO carbon fiber shaft (3 diameter options)",
+      "Uni-Loc Quick Release joint — swap shafts in 1 second",
+      "5 designs available, each a collectible piece of craftsmanship",
+      "Priced $2,800-$3,500, for elite players and collectors"
+    ]
+  },
+  "suitable_for": {
+    "zh": "追求极致的竞技选手和收藏家。如果你同时需要最强性能和最美外观，Blak5 是 Predator 能提供的最好选择。",
+    "en": "Elite competitive players and collectors seeking the absolute best. If you demand top performance paired with stunning aesthetics, Blak5 is the finest Predator has to offer."
+  },
+  "review": {
+    "zh": "Blak5 是 Predator 的'王冠宝石'，代表了当前台球杆制造工艺的天花板。每一根 Blak5 都使用黑檀木、可可波罗等珍贵硬木，由顶级工匠手工镶嵌——这不仅仅是一根球杆，更是一件艺术品。标配的 REVO 碳纤维前节提供了市面上最低的偏转和最稳定的手感。Uni-Loc 快拆系统让你可以在不同直径的 REVO 前节之间秒切换。$3000 的价格确实不是所有人都能接受，但如果预算允许，Blak5 在性能和外观上都无可挑剔。",
+    "en": "Blak5 is Predator's 'crown jewel,' representing the ceiling of current cue manufacturing. Each Blak5 features exotic hardwoods like ebony and cocobolo, hand-inlaid by master craftsmen — it's not just a cue, it's art. The included REVO carbon fiber shaft delivers the lowest deflection and most consistent feel on the market. The Uni-Loc Quick Release system lets you swap between different REVO shaft diameters instantly. The $3,000 price point isn't for everyone, but if budget allows, Blak5 is flawless in both performance and aesthetics."
+  },
+  "buy_links": [
+    { "platform": "Predator Official", "url": "https://www.predatorcues.com/collections/blak-pool-cues" },
+    { "platform": "PoolDawg", "url": "#" }
+  ]
+}

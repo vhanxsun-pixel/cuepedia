@@ -1,0 +1,49 @@
+{
+  "id": "mezz-ace",
+  "brand": "mezz",
+  "name": {
+    "zh": "Mezz ACE218 系列",
+    "en": "Mezz ACE218 Series"
+  },
+  "category": {
+    "zh": "竞技打杆",
+    "en": "Competition Playing Cue"
+  },
+  "price_range": { "min": 600, "max": 1000, "currency": "USD" },
+  "shaft_options": ["WX-Σ (Sigma)"],
+  "joint": "Wavy 2",
+  "wrap_options": ["Irish Linen"],
+  "weight_range": "19.0-19.5 oz (538-552g)",
+  "butt_materials": ["Hard Rock Maple"],
+  "images": [
+    { "src": "/assets/images/brands/mezz/ace-1.webp", "alt": "Mezz ACE218 full cue" }
+  ],
+  "highlights": {
+    "zh": [
+      "Wavy 2 独特波浪接牙系统，Mezz 独家专利",
+      "标配 WX-Σ 低偏转前节",
+      "XJ Powerplate 前节端面技术",
+      "5 款设计可选（ACE-2180/2181/2184/2185/2187）",
+      "设计运动简洁，比 EC9 更低调内敛"
+    ],
+    "en": [
+      "Wavy 2 unique wave joint system — Mezz exclusive patent",
+      "Includes WX-Σ low-deflection shaft",
+      "XJ Powerplate tip-end technology",
+      "5 designs available (ACE-2180/2181/2184/2185/2187)",
+      "Sporty minimal design, more understated than EC9"
+    ]
+  },
+  "suitable_for": {
+    "zh": "想入手 Mezz 品质但不需要 EC9 那么华丽外观的竞技选手。Wavy 2 接牙提供独特手感，适合喜欢与众不同的玩家。",
+    "en": "Competitive players who want Mezz quality without EC9's ornate aesthetics. The Wavy 2 joint offers a distinctive feel, perfect for players who appreciate uniqueness."
+  },
+  "review": {
+    "zh": "ACE218 是 Mezz 产品线中'纯竞技'定位的代表。和 EC9 使用相同的 WX-Σ 前节，但后把设计更加简洁运动——没有珍贵木材镶嵌，取而代之的是硬枫木的干净线条。核心差异在接牙系统：ACE 使用 Wavy 2 波浪接牙而非 EC9 的 United Joint。Wavy 2 的打感偏向'结实紧凑'，力量传导更直接。对于纯粹追求打球手感而非外观的选手来说，ACE218 可能比 EC9 更合适——相同的前节性能，更低的价格。",
+    "en": "ACE218 represents the 'pure competition' positioning in Mezz's lineup. It shares the same WX-Σ shaft as EC9, but with a cleaner, sportier butt design — no exotic wood inlays, replaced by clean hard maple lines. The core difference is the joint: ACE uses the Wavy 2 wave joint instead of EC9's United Joint. Wavy 2's feel is more 'solid and compact' with more direct power transfer. For players who purely prioritize playing feel over appearance, ACE218 may suit better than EC9 — same shaft performance, lower price."
+  },
+  "buy_links": [
+    { "platform": "Mezz Official", "url": "https://mezzcue.com/en/products_pool/cues/playcue/ace" },
+    { "platform": "PoolDawg", "url": "#" }
+  ]
+}

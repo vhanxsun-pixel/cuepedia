@@ -10,13 +10,15 @@
     "en": "Entry-Level Playing Cue"
   },
   "price_range": { "min": 95, "max": 245, "currency": "USD" },
+
   "shaft_options": ["Classic Maple Shaft"],
   "joint": "3/8-10",
   "wrap_options": ["Irish Linen", "No Wrap"],
   "weight_range": "18-21 oz",
   "butt_materials": ["Premium Maple", "Graphic overlays"],
   "images": [
-    { "src": "/assets/images/brands/mcdermott/lucky-1.webp", "alt": "McDermott Lucky cue" }
+    { "src": "/assets/images/brands/mcdermott/lucky-1.webp", "alt": "McDermott L81 Lucky cue" },
+    { "src": "/assets/images/brands/mcdermott/lucky-2.webp", "alt": "McDermott L1 Lucky cue" }
   ],
   "highlights": {
     "zh": [

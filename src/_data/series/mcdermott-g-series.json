@@ -16,8 +16,9 @@
   "weight_range": "18-21 oz",
   "butt_materials": ["Hard Rock Maple", "Ebony", "Cocobolo", "Birdseye Maple", "Bocote"],
   "images": [
-    { "src": "/assets/images/brands/mcdermott/g-series-1.webp", "alt": "McDermott G-Series cue" },
-    { "src": "/assets/images/brands/mcdermott/g-series-2.webp", "alt": "McDermott G-Series inlay detail" }
+    { "src": "/assets/images/brands/mcdermott/g-series-1.webp", "alt": "McDermott G709 i-Shaft cue" },
+    { "src": "/assets/images/brands/mcdermott/g-series-2.webp", "alt": "McDermott G502 G-Core cue" },
+    { "src": "/assets/images/brands/mcdermott/g-series-3.webp", "alt": "McDermott G201 entry-level cue" }
   ],
   "highlights": {
     "zh": [
