@@ -1,0 +1,51 @@
+{
+  "id": "mcdermott-g-series",
+  "brand": "mcdermott",
+  "name": {
+    "zh": "McDermott G-Series",
+    "en": "McDermott G-Series"
+  },
+  "category": {
+    "zh": "竞技打杆",
+    "en": "Playing Cue"
+  },
+  "price_range": { "min": 445, "max": 2690, "currency": "USD" },
+  "shaft_options": ["i-2 Shaft", "G-Core Shaft", "Defy Carbon Fiber Shaft (加购)", "Classic Maple"],
+  "joint": "3/8-10 / Radial Pin",
+  "wrap_options": ["Irish Linen", "No Wrap", "Leather"],
+  "weight_range": "18-21 oz",
+  "butt_materials": ["Hard Rock Maple", "Ebony", "Cocobolo", "Birdseye Maple", "Bocote"],
+  "images": [
+    { "src": "/assets/images/brands/mcdermott/g-series-1.webp", "alt": "McDermott G-Series cue" },
+    { "src": "/assets/images/brands/mcdermott/g-series-2.webp", "alt": "McDermott G-Series inlay detail" }
+  ],
+  "highlights": {
+    "zh": [
+      "McDermott 核心产品线，90+ 款型号可选",
+      "i-2 前节版本和 G-Core 前节版本两大配置",
+      "终身免费保修（含变形），业界最强保障",
+      "全美国制造，珍贵木材镶嵌工艺精湛",
+      "可深度定制：染色、握把材质、木材选择"
+    ],
+    "en": [
+      "McDermott's core product line with 90+ models available",
+      "Two main configurations: i-2 shaft and G-Core shaft",
+      "Lifetime warranty including warpage — industry's strongest guarantee",
+      "Made in USA with exquisite exotic wood inlay craftsmanship",
+      "Highly customizable: stains, wraps, exotic woods, and materials"
+    ]
+  },
+  "suitable_for": {
+    "zh": "各水平段的玩家。G-Core 版本（$445-$1140）适合进阶玩家，i-Shaft 版本（$1275-$2690）适合追求顶级性能的竞技选手。终身保修让它成为'买一根用一辈子'的选择。",
+    "en": "Players at all skill levels. G-Core versions ($445-$1,140) suit advancing players, while i-Shaft versions ($1,275-$2,690) target competitive players seeking top performance. The lifetime warranty makes it a 'buy once, use forever' choice."
+  },
+  "review": {
+    "zh": "G-Series 是 McDermott 的灵魂产品线，也是理解这个品牌的钥匙。与 Predator 和 Mezz 的'几个系列、少量型号'策略不同，McDermott 走的是'一个系列涵盖全价位'的路线——从入门级 $445 的 G201 到旗舰级 $2690 的 M29C，都叫 G-Series。核心差异在于后把的用料和工艺复杂度。终身保修是真正的杀手锏：如果你的杆弯了，寄回去免费换新，这在其他品牌是不可想象的。G-Core 版本性价比极高，推荐预算 $500-800 区间的玩家重点考虑。",
+    "en": "The G-Series is McDermott's soul product line and the key to understanding this brand. Unlike Predator and Mezz's 'few series, limited models' strategy, McDermott takes a 'one series covering all price points' approach — from the entry-level $445 G201 to the flagship $2,690 M29C, all under G-Series. The core difference lies in butt materials and craftsmanship complexity. The lifetime warranty is the true killer feature: if your cue warps, send it back for a free replacement — unthinkable with other brands. The G-Core versions offer exceptional value, highly recommended for players in the $500-800 budget range."
+  },
+  "buy_links": [
+    { "platform": "McDermott Official", "url": "https://www.mcdermottcue.com" },
+    { "platform": "PoolDawg", "url": "#" },
+    { "platform": "Amazon", "url": "#" }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "mezz-power-break",
+  "brand": "mezz",
+  "name": {
+    "zh": "Mezz Power Break 系列",
+    "en": "Mezz Power Break Series"
+  },
+  "category": {
+    "zh": "冲杆",
+    "en": "Break Cue"
+  },
+  "price_range": { "min": 400, "max": 900, "currency": "USD" },
+  "shaft_options": ["Power Break G shaft", "Power Break II shaft"],
+  "joint": "United Joint",
+  "wrap_options": ["No Wrap", "Sport Grip"],
+  "weight_range": "19-21 oz",
+  "butt_materials": ["Hard Rock Maple", "Carbon composite"],
+  "images": [
+    { "src": "/assets/images/brands/mezz/pb-1.webp", "alt": "Mezz Power Break cue" }
+  ],
+  "highlights": {
+    "zh": [
+      "专为大力冲球设计，硬度和弹性最优平衡",
+      "Power Break 前节加强硬度，传力更高效",
+      "重心靠后设计，冲球发力更顺畅",
+      "防滑握把设计，大力击球不脱手"
+    ],
+    "en": [
+      "Designed specifically for powerful breaks with optimal stiffness-flex balance",
+      "Power Break shaft with enhanced hardness for efficient power transfer",
+      "Rear-weighted balance point for smoother break stroke",
+      "Non-slip grip design prevents slipping on hard strokes"
+    ]
+  },
+  "suitable_for": {
+    "zh": "需要一根专业冲杆的进阶玩家。冲球频率高、打比赛需要稳定开球表现的选手。",
+    "en": "Advanced players who need a dedicated break cue. Players who break frequently and need consistent break performance in tournaments."
+  },
+  "review": {
+    "zh": "Mezz Power Break 是市面上口碑最好的冲杆之一。跟打杆追求手感不同，冲杆核心就是'传力效率'——把你的力量尽可能多地传递到母球上。Power Break 的前节硬度比普通打杆高很多，击球时几乎没有形变，能量损失极小。后把重心靠后的设计让你在大力挥杆时更容易保持直线运动。如果你现在用打杆冲球，换一根专业冲杆后会明显感觉散球效果提升。",
+    "en": "The Mezz Power Break is one of the most highly regarded break cues available. Unlike playing cues that prioritize feel, break cues focus on 'power transfer efficiency' — delivering maximum force to the cue ball. The Power Break shaft has significantly higher stiffness than regular playing shafts, minimizing deformation and energy loss on impact. The rear-weighted butt design helps maintain straight-line motion during powerful strokes. If you're currently breaking with your playing cue, switching to a dedicated break cue will noticeably improve your spread."
+  },
+  "buy_links": [
+    { "platform": "PoolDawg", "url": "#" },
+    { "platform": "Mezz Official", "url": "https://www.mezzpool.com" }
+  ]
+}

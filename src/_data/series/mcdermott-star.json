@@ -1,0 +1,49 @@
+{
+  "id": "mcdermott-star",
+  "brand": "mcdermott",
+  "name": {
+    "zh": "McDermott Star 系列",
+    "en": "McDermott Star Series"
+  },
+  "category": {
+    "zh": "中端打杆",
+    "en": "Mid-Range Playing Cue"
+  },
+  "price_range": { "min": 270, "max": 515, "currency": "USD" },
+  "shaft_options": ["Classic Maple Shaft", "G-Core Shaft (加购)"],
+  "joint": "3/8-10",
+  "wrap_options": ["Irish Linen", "No Wrap"],
+  "weight_range": "18-21 oz",
+  "butt_materials": ["Premium Maple", "Exotic materials overlay"],
+  "images": [
+    { "src": "/assets/images/brands/mcdermott/star-1.webp", "alt": "McDermott Star cue" }
+  ],
+  "highlights": {
+    "zh": [
+      "McDermott 中端产品线，价格亲民",
+      "使用 McDermott 技术全球制造",
+      "4 色彩色镶嵌工艺，外观出色",
+      "有限终身保修",
+      "部分型号支持冲/跳杆接牙（Break/Jump Joint）"
+    ],
+    "en": [
+      "McDermott's mid-range line at accessible prices",
+      "Manufactured globally using McDermott's technology",
+      "4-color overlay inlay craftsmanship with great aesthetics",
+      "Limited lifetime warranty",
+      "Select models feature Break/Jump joint configuration"
+    ]
+  },
+  "suitable_for": {
+    "zh": "预算 $300-500 的进阶玩家，想要品牌品质但不想花太多钱。适合作为第一根'正经'球杆。",
+    "en": "Advancing players with a $300-500 budget who want brand quality without breaking the bank. Ideal as a first 'serious' cue."
+  },
+  "review": {
+    "zh": "Star 系列是 McDermott 打入中端市场的利器。虽然不是美国本土制造（全球制造，McDermott 监控品质），但延续了 McDermott 的设计语言和品质标准。$270-515 的价位覆盖了大量'想要品牌杆但预算有限'的玩家群体。4 色镶嵌工艺在这个价位很少见，外观上不输 G-Series 入门款。缺点是标配前节只是普通枫木，想要更好性能需要另外加购 G-Core。但作为一根日常练习和打友谊赛的杆，Star 完全够用。",
+    "en": "The Star series is McDermott's weapon for the mid-range market. While not made in the USA (globally manufactured under McDermott quality control), it maintains McDermott's design language and quality standards. The $270-515 price range covers a large market of players who want a branded cue on a budget. The 4-color overlay craftsmanship is rare at this price point, matching entry-level G-Series aesthetics. The downside is the stock maple shaft — G-Core upgrade costs extra. But for daily practice and casual competition, Star is more than capable."
+  },
+  "buy_links": [
+    { "platform": "McDermott Official", "url": "https://www.mcdermottcue.com" },
+    { "platform": "Amazon", "url": "#" }
+  ]
+}

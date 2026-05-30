@@ -1,0 +1,50 @@
+{
+  "id": "mcdermott-lucky",
+  "brand": "mcdermott",
+  "name": {
+    "zh": "McDermott Lucky 系列",
+    "en": "McDermott Lucky Series"
+  },
+  "category": {
+    "zh": "入门打杆",
+    "en": "Entry-Level Playing Cue"
+  },
+  "price_range": { "min": 95, "max": 245, "currency": "USD" },
+  "shaft_options": ["Classic Maple Shaft"],
+  "joint": "3/8-10",
+  "wrap_options": ["Irish Linen", "No Wrap"],
+  "weight_range": "18-21 oz",
+  "butt_materials": ["Premium Maple", "Graphic overlays"],
+  "images": [
+    { "src": "/assets/images/brands/mcdermott/lucky-1.webp", "alt": "McDermott Lucky cue" }
+  ],
+  "highlights": {
+    "zh": [
+      "百元级别最佳入门选择，McDermott 品质背书",
+      "30+ 款型号，配色丰富",
+      "三年有限保修",
+      "图形贴面工艺，花色多样好看",
+      "含跳杆型号（LJ1/LJ2）仅 $155"
+    ],
+    "en": [
+      "Best entry-level choice under $250, backed by McDermott quality",
+      "30+ models with rich color options",
+      "Three-year limited warranty",
+      "Graphic overlay designs with diverse patterns",
+      "Jump cue models (LJ1/LJ2) available at just $155"
+    ]
+  },
+  "suitable_for": {
+    "zh": "台球新手的第一根自用杆。预算 $100-250，不想用球房公杆但又不确定自己会不会长期打球的人。",
+    "en": "A beginner's first personal cue. Budget $100-250, for those who don't want to use house cues but aren't sure about long-term commitment to the sport."
+  },
+  "review": {
+    "zh": "Lucky 系列是'新手第一杆'的标准答案之一。$135 就能买到一根有 McDermott 品质保证的两截式球杆，比淘宝杂牌 $50 的杆好太多——直度有保障、接牙精度合格、打感也更扎实。虽然前节只是普通枫木，没有低偏转技术加持，但对新手来说根本用不到那些高级功能。等技术进步了再升级 G-Series 或其他品牌也不迟。三年保修虽然不如 G-Series 的终身保修，但在这个价位已经很良心了。",
+    "en": "The Lucky series is one of the standard answers to 'what should be my first cue.' At $135 you get a two-piece cue with McDermott quality assurance — far better than no-name $50 cues in terms of straightness, joint precision, and solid hit. While the maple shaft lacks low-deflection technology, beginners won't need those advanced features anyway. Upgrade to G-Series or other brands later as skills improve. The three-year warranty, while not matching G-Series' lifetime coverage, is very generous at this price point."
+  },
+  "buy_links": [
+    { "platform": "McDermott Official", "url": "https://www.mcdermottcue.com" },
+    { "platform": "Amazon", "url": "#" },
+    { "platform": "PoolDawg", "url": "#" }
+  ]
+}

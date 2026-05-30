@@ -1,0 +1,46 @@
+{
+  "id": "mezz-axi",
+  "brand": "mezz",
+  "name": {
+    "zh": "Mezz AXI 系列",
+    "en": "Mezz AXI Series"
+  },
+  "category": {
+    "zh": "竞技打杆（入门）",
+    "en": "Playing Cue (Entry)"
+  },
+  "price_range": { "min": 350, "max": 700, "currency": "USD" },
+  "shaft_options": ["WX700", "HP2 shaft"],
+  "joint": "United Joint",
+  "wrap_options": ["Irish Linen", "No Wrap"],
+  "weight_range": "18.5-20.5 oz",
+  "butt_materials": ["Hard Rock Maple"],
+  "images": [
+    { "src": "/assets/images/brands/mezz/axi-1.webp", "alt": "Mezz AXI cue" }
+  ],
+  "highlights": {
+    "zh": [
+      "Mezz 入门级产品线，价格相对亲民",
+      "同样享受日式精工品质",
+      "可选配 WX700 前节（需加价）",
+      "设计简洁运动风，适合日常练习和比赛"
+    ],
+    "en": [
+      "Mezz's entry-level line at a more accessible price point",
+      "Same Japanese precision craftsmanship",
+      "Optional WX700 shaft upgrade available",
+      "Clean sporty design suitable for practice and competition"
+    ]
+  },
+  "suitable_for": {
+    "zh": "想入手 Mezz 品牌但预算有限的玩家，或作为练习用的第二根杆。",
+    "en": "Players who want Mezz quality at a budget, or as a secondary practice cue."
+  },
+  "review": {
+    "zh": "AXI 是进入 Mezz 世界门槛最低的选择。后把设计虽然没有 EC7 那么精致（少了珍贵木材镶嵌），但核心的接牙系统和制造精度完全一致。搭配标配的 HP2 前节已经够用，如果预算允许可以加购一根 WX700 前节。对于从杂牌杆升级到品牌杆的玩家来说，AXI 是非常好的'品质跳板'。",
+    "en": "AXI is the most accessible entry into the Mezz ecosystem. While the butt design lacks the exotic wood inlays of the EC7, the core joint system and manufacturing precision are identical. The included HP2 shaft is capable enough, with optional WX700 upgrade available. For players upgrading from generic cues to a brand cue, the AXI serves as an excellent 'quality stepping stone.'"
+  },
+  "buy_links": [
+    { "platform": "PoolDawg", "url": "#" }
+  ]
+}
